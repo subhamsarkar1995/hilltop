@@ -1,0 +1,307 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* header portion */
+
+.header{
+  background-color: #c4fb6d;
+}
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.top-container{
+    width: 100%;
+}
+.clerfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+.left{
+  float: left;
+  padding-top: 2px;
+}
+.right{
+    float: right;
+}
+.list{
+  list-style: none;
+}
+.right li{
+  display: inline-block;
+}
+.right li a{
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+.right li a:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+/* banner containt */
+.banner{
+  position: relative;
+}
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+.banner-content{
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  text-shadow:  0 0 69px #ffffff, 0 0 34px #e4e3e3;
+  top: 232px;
+  left: 338px;
+  font-family: 'Montserrat';
+}
+h1{
+  display: block;
+  font-weight: bold;
+}
+ /* HTML CARDS WITH ROW AND COLUMN */
+ .card-section{
+   margin: 30px 0;
+ }
+ .row{
+   width: 100%;
+ }
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+  background-color: #c4fb6d;
+}
+.column img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 50px;
+}
+.image-border{
+  border-top: 5px solid white;
+}
+h2{
+  padding-top: 30px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.card-para{
+  padding: 30px;
+  font-family: "Montserrat";
+}
+/* SECTION TRENDING PROJECTS */
+.extra{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-top: 370px;
+}
+.section-title{
+  text-align: center;
+}
+.section-heading{
+  padding-top: 116px;
+  padding-bottom: 65px;
+  font-weight: bold;
+}
+.section-para{
+  padding-bottom: 20px;
+}
+.section-column{
+  width: 23%;
+  margin: 11px;
+  float: left;
+}
+.img-section-trending{
+  width: 100%;
+  border-radius: 5%;
+}
+.image-heading{
+  font-family: "Merriweather";
+  padding: 10px 0;
+}
+.image-content{
+  font-family: "Merriweather";
+}
+/* PROPERTY SECTION */
+section{
+  display: block;
+}
+#Property{
+  background-color: #c4fb6d;
+  padding-bottom: 823px;
+  margin-top: 390px;
+}
+.describtion{
+  text-align: center;
+}
+.property-heading{
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.property-para{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+.property-row{
+  width: 100%;
+}
+.property-column{
+  width: 31%;
+  float: left;
+  margin: 11px;
+}
+.property-image{
+  width: 100%;
+  border-radius: 10px;
+}
+.property-row-para{
+  text-align:left;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: "Montserrat";
+}
+/* OUR COMPANY */
+.our-company{
+  margin-bottom: 90px;
+}
+.company-description{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.company-description-para{
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: "Montserrat";
+}
+.our-company-row{
+  width: 100%;
+}
+.our-company-column{
+  width: 48%;
+  float: left;
+  margin: 0 8px;
+}
+.our-company-column{
+  line-height: 1.6;
+  font-family: "Montserrat";
+  font-size: 17px;
+}
+.list{
+  margin-top: 15px;
+  padding-left: 1px;
+}
+.list li{
+  margin-top: 11px;
+}
+.arrow-point{
+  float: left;
+  height: 20px;
+}
+.points{
+  padding-left: 30px;
+}
+.buttonClass {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  font-size:17px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#18ab29;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#44c767;
+}
+
+.buttonClass:hover {
+  background: #5cbf2a
+}
+.our-company-image{
+  margin-top: 26px;
+  height: 300px;
+}
+/* map */
+.mapping{
+  width: 100%;
+}
+/* FOOTER PORTION */
+.footer-background{
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 335px;
+}
+.row-footer{
+  width: 100%;
+}
+.column-footer{
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+h5{
+  font-family: "Montserrat";
+  color: #c4fb6d;
+  text-shadow: 0 0 0.13px #c4fb6d, 0 0 10px #bac964;
+}
+.company-address{
+  font-family: "Merriweather";
+  line-height: 3;
+  font-size: 12px;
+  color: #ffffff;
+}
+strong{
+  font-weight: bold;
+}
+.company-phone{
+  line-height: 3;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Merriweather";
+}
+.column-footer{
+  float: left;
+  margin: 11px;
+  width: 23%;
+}
+.footer-list{
+  padding: 0;
+  line-height: 1.5;
+  list-style: none;
+}
+.list-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-links{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+h1:hover{
+
+  padding: 20px 20px 20px 20px;
+}
